@@ -1,8 +1,8 @@
 const NodeCache = require('node-cache')
 
 const config = {
-    prefix: '/',
-    openaikey: '',
+    prefix: '!',
+    openaikey: '&',
     credentials: require('./fbstate.json'),
     cache: new NodeCache({
         checkperiod: 10000,
